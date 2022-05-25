@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 class Event {
   final String title;
-  Event({@required this.title});
-
-  String toString() => this.title;
+  final String start;
+  final String end;
+  Event({@required this.title, @required this.start, @required this.end});
 }
